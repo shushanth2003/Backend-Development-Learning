@@ -64,5 +64,10 @@ Meta tags in HTML provide metadata about an HTML document, which is information 
 ---
 # Textual Tags
 ## Headings
-Headings are used to define the titles and subtitles within a document. HTML provides six levels of headings, from <h1> (the most important and largest) to <h6> (the least important and smallest). They help structure content and improve readability by creating a clear hierarchy.
+Headings are used to define the titles and subtitles within a document. HTML provides six levels of headings, from h1 (the most important and largest) to h6 (the least important and smallest). They help structure content and improve readability by creating a clear hierarchy.
 ---
+## Title Tag
+The <title> tag in HTML defines the title of the HTML document. This title is displayed in the browser's title bar or tab, and it's also used for bookmarking pages and in search engine results. It's placed within the <head> section of the HTML document.
+---
+# p Tag
+The p tag in HTML defines a paragraph. Browsers automatically add a single blank line before and after each paragraph, creating a clear separation between blocks of text. It's a block-level element, meaning it occupies the full width available to it and starts on a new line.
