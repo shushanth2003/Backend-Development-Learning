@@ -62,5 +62,5 @@ Based on the uploaded images, here is the transcribed text, organized by the top
 * $\rightarrow$ **Network security**
 * $\rightarrow$ **Request prioritization**
 
-(whether you need to understand the depth concept)[https://cs.fyi/guide/http-in-depth]
+[whether you need to understand the depth concept](https://cs.fyi/guide/http-in-depth)
 ---
