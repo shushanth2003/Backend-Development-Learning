@@ -7,7 +7,7 @@ A markup language is a system for defining the structure, presentation, and/or p
 
 * For example, the h1 tag in HTML (hypertext markup language) communicates that the enclosed text is a top-level heading.
 
-Search engines can use this information to better understand the subject matter of your page. While browsers can use this information to apply the relevant styling.
+* Search engines can use this information to better understand the subject matter of your page. While browsers can use this information to apply the relevant styling.
 ---
 ## type of Markup Language
 **Semantic markup** (or descriptive markup) provides meaning to content by labeling that content’s structure and purpose. Which can help browsers, search engines, and developers interpret the content correctly.
