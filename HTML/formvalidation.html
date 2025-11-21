@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <div class="address">
+        <form action="">
+             <label for="postal-code">Postal Code</label>
+             <input type="text" minlength="6" maxlength="6" name="postal-code" required>
+             <select name="country" id="country">
+                <option value="switzerland">switzerland</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="Denmark">Denmark</option>
+             </select>
+             <input type="submit" value="validate">
+        </form>
+       
+    </div>
+</body>
+</html>
