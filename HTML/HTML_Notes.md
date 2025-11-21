@@ -104,3 +104,12 @@ The class attribute in HTML is used to specify one or more class names for an HT
 ## HTML Table Tag
 The HTML table tag is used to create tables on web pages. It organizes data into rows and columns, similar to a spreadsheet. Within the table tag, you'll find tags like <tr> for table rows, th for table headers, and td for table data cells, which define the structure and content of the table.
 ---
+## Ordered Lists
+Ordered lists in HTML are used to display a series of items in a specific order. Each item in the list is typically numbered, allowing readers to easily follow a sequence or ranking. The <ol> tag is used to create an ordered list, and each list item is defined using the <li> tag.
+---
+## Unordered Lists
+Unordered lists present items in a bulleted format, where the order of the items is not significant. They are used to group related content together without implying any specific sequence or priority. Each item in the list is typically marked with a bullet point, making it easy to visually distinguish and scan the list's contents
+---
+## Definition Lists
+Definition lists in HTML are used to present terms and their corresponding definitions. They are structured using three main elements: dl (definition list), dt (definition term), and dd (definition description). The dl element acts as the container for the entire list, while each term is marked with <dt> and its associated description is enclosed within <dd>. This structure allows for a clear and organized presentation of terms and their meanings.
+---
