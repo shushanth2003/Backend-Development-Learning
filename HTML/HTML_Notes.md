@@ -69,5 +69,38 @@ Headings are used to define the titles and subtitles within a document. HTML pro
 ## Title Tag
 The <title> tag in HTML defines the title of the HTML document. This title is displayed in the browser's title bar or tab, and it's also used for bookmarking pages and in search engine results. It's placed within the <head> section of the HTML document.
 ---
-# p Tag
+## p Tag
 The p tag in HTML defines a paragraph. Browsers automatically add a single blank line before and after each paragraph, creating a clear separation between blocks of text. It's a block-level element, meaning it occupies the full width available to it and starts on a new line.
+---
+## br Tag
+The break tag in HTML creates a line break within a text block. It's used to start a new line without creating a new paragraph, effectively forcing the text that follows to appear on the next line. It is an empty element, meaning it has no closing tag.
+---
+## b / strong
+The b and strong tags in HTML are used to make text appear bold. While both achieve a similar visual effect, the b tag is primarily for stylistic purposes, indicating text that should be visually distinguished without necessarily conveying importance. On the other hand, the strong tag signifies that the enclosed text has strong importance, seriousness, or urgency.
+---
+## pre
+The pre tag in HTML represents preformatted text. Text inside a pre element is displayed in a fixed-width font, and it preserves both spaces and line breaks. This is useful for displaying code snippets, ASCII art, or any other text where formatting is important.
+---
+## Links
+Links, also known as hyperlinks, are elements that connect one web resource to another. They allow users to navigate between different pages on the same website or to external websites. Links are created using the <a> (anchor) tag, and they can point to various types of resources, including HTML pages, images, documents, and more
+---
+# Grouping Text
+div and span are HTML elements used to group other elements together. The div element is a block-level element, meaning it creates a distinct block on the page and typically starts on a new line. It's often used for larger structural groupings. The span element, on the other hand, is an inline element, meaning it flows within the surrounding text and doesn't create a new line. It's useful for styling or manipulating specific portions of text without disrupting the overall layout.
+
+## div tag
+The div element is a generic container for flow content, which in simpler terms means it's a way to group together other HTML elements. It doesn't inherently represent anything specific on its own, but it's commonly used to structure and style sections of a webpage. It has no effect on the content or layout until styled in some way using CSS (e.g., styling is directly applied to it, or some kind of layout model like Flexbox is applied to its parent element).
+---
+## span tag
+The span element is an inline container used to mark up a part of a text, or a part of a document. It is used to group elements for styling purposes or because they share attributes such as lang or dir. It doesn't inherently represent anything on its own, but becomes useful when combined with CSS or JavaScript to target specific sections of text.
+---
+# Standard Attributes
+## id Attribute
+The id attribute in HTML provides a unique identifier for an element within a document. This identifier allows you to target and manipulate that specific element using CSS styles, JavaScript code, or even link directly to it using fragment identifiers in URLs (e.g., #section1). Each id value should be unique within the entire HTML document to ensure proper functionality.
+---
+## Class Attribute
+The class attribute in HTML is used to specify one or more class names for an HTML element. These class names can then be used by CSS and JavaScript to style and manipulate specific elements or groups of elements that share the same class. Essentially, it's a way to categorize and target elements for styling and scripting purposes.
+---
+# Table Tag
+## HTML Table Tag
+The HTML table tag is used to create tables on web pages. It organizes data into rows and columns, similar to a spreadsheet. Within the table tag, you'll find tags like <tr> for table rows, th for table headers, and td for table data cells, which define the structure and content of the table.
+---
